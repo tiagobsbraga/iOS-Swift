@@ -39,6 +39,8 @@ stackOfStrings.push("dois")
 stackOfStrings.push("tres")
 stackOfStrings.push("quatro")
 
+print(stackOfStrings)
+
 let fromTheTop = stackOfStrings.pop()
 
 //: Extending a Generic Type
@@ -139,10 +141,12 @@ print(newStackOfStrings)
 
 let listOfStrings = ["one", "two", "three", "four"]
 
+var result = ""
 if allItemsMatch(newStackOfStrings, listOfStrings) {
-    print("All items match.")
+    result = "All items match."
 } else {
-    print("Not all items match.")
+    result = "Not all items match."
 }
+print(result)
 
 //: [Next](@next)

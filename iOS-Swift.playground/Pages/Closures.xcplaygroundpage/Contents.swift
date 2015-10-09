@@ -52,6 +52,8 @@ var result = sum(20, 25) {
     return c
 }
 
+print(result)
+
 //: Capturing Values
 
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
@@ -86,10 +88,8 @@ alsoIncrementByTen()
 
 var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
 print(customersInLine.count)
-
 let customerProvider = { customersInLine.removeAtIndex(0) }
 print(customersInLine.count)
-
 print("Now serving \(customerProvider())!")
 print(customersInLine.count)
 
@@ -109,6 +109,7 @@ func serveOtherCustomer(@autoclosure customerProvider: () -> String) {
 }
 
 serveOtherCustomer(customersInLine.removeAtIndex(0))
+
 print(customersInLine.count)
 
 //: Escaping - Using variables from outside the closure

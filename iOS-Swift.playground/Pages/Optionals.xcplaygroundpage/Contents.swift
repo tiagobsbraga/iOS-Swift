@@ -3,11 +3,11 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: Declaration
 
 var code: Int?
-print(code)
 
 //: Unwrapping
 
@@ -21,11 +21,14 @@ code = nil
 //: Testing
 
 if code != nil {
-    print("Not nil")
+    result = "Not nil"
 }
 if code == nil {
-    print("Is nil")
+    result = "Is nil"
 }
+
+print(result)
+
 num = (code != nil ? code! : 20)
 code = 10
 num = (code != nil ? code! : 20)
@@ -34,13 +37,18 @@ num = (code != nil ? code! : 20)
 
 code = nil
 if let newCode = code {
-    print("newCode exists")
-    print("let's do something!")
+    result = "newCode exists, let's do something!"
+} else {
+    result = "newCode does not exists"
 }
+print(result)
+
 code = 10
 if let newCode = code {
-    print("newCode exists")
-    print("let's do something!")
+    result = "newCode exists, let's do something!"
+} else {
+    result = "newCode does not exists"
 }
+print(result)
 
 //: [Next](@next)

@@ -3,6 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: Empty Dictionary
 
@@ -21,16 +22,18 @@ print(airports.count)
 //: Check if it is Empty
 
 if namesOfIntegers.isEmpty {
-    print("The name of integers dictionary is empty.")
+    result = "The name of integers dictionary is empty."
 } else {
-    print("The name of integers dictionary is not empty.")
+    result = "The name of integers dictionary is not empty."
 }
+print(result)
 
 if airports.isEmpty {
-    print("The airports dictionary is empty.")
+    result = "The airports dictionary is empty."
 } else {
-    print("The airports dictionary is not empty.")
+    result = "The airports dictionary is not empty."
 }
+print(result)
 
 //: Modifying a Dictionary
 
@@ -46,10 +49,11 @@ airports["DUB"] = nil
 print(airports)
 
 if let removedValue = airports.removeValueForKey("LHR") {
-    print("Removed \(removedValue)")
+    result = "Removed \(removedValue)"
 } else {
-    print("The airports dictionary does not contain a value for LHR.")
+    result = "The airports dictionary does not contain a value for LHR."
 }
+print(result)
 print(airports)
 
 //: Iterating Over a Dictionary

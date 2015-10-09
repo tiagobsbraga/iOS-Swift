@@ -104,6 +104,7 @@ func restrictions(age: Int) -> String? {
     }
     return nil
 }
+
 print(restrictions(15))
 print(restrictions(51))
 
@@ -130,6 +131,7 @@ print("min is \(bounds.min) and max is \(bounds.max)")
 func addTwoInts(a: Int, _ b: Int) -> Int {
     return a + b
 }
+
 var mathFunction: (Int, Int) -> Int = addTwoInts
 print(mathFunction(2, 3))
 var otherMathFunction = addTwoInts
@@ -167,6 +169,7 @@ func chooseStepFunction2(backwards: Bool) -> (Int) -> Int {
     func stepBackward(input: Int) -> Int { return input - 1 }
     return backwards ? stepBackward : stepForward
 }
+
 currentValue = -4
 moveNearerToZero = chooseStepFunction2(currentValue > 0)
 moveNearerToZero(currentValue)

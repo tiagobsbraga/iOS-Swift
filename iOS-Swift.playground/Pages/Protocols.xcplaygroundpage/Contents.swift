@@ -109,7 +109,6 @@ let t2 = Text(title: "Two")
 let t3 = Text(title: "Three")
 
 let things: [TextRepresentable] = [t1, t2, t3]
-
 for thing in things {
     print(thing.textualDescription)
 }
@@ -199,11 +198,13 @@ let objects: [AnyObject] = [
 ]
 
 for object in objects {
+    var result = ""
     if let objectWithArea = object as? HasArea {
-        print("Area is \(objectWithArea.area)")
+        result = "Area is \(objectWithArea.area)"
     } else {
-        print("Something that doesn't have an area")
+        result = "Something that doesn't have an area"
     }
+    print(result)
 }
 
 //: Optional Protocol Requirements

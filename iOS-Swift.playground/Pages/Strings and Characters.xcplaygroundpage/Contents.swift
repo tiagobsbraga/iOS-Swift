@@ -3,6 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: String Literals
 
@@ -12,9 +13,14 @@ var someString = "Some string literal value"
 
 var emptyString = ""
 var anotherEmptyString = String()
+
 if emptyString.isEmpty {
-    print("Nothing to see here")
+    result = "Nothing to see here"
+} else {
+    result =  emptyString
 }
+
+print(result)
 
 //: Mutability and Concatenation
 
@@ -33,6 +39,7 @@ someString = "abc123"
 for character in someString.characters {
     print(character)
 }
+
 let exclamationMark: Character = "!"
 someString.append(exclamationMark)
 
@@ -59,7 +66,6 @@ var welcome = "hello"
 welcome.insert("!", atIndex: welcome.endIndex)
 welcome.insertContentsOf(" there".characters, at: welcome.endIndex.predecessor())
 welcome.removeAtIndex(welcome.endIndex.predecessor())
-
 let range = welcome.endIndex.advancedBy(-6)..<welcome.endIndex
 welcome.removeRange(range)
 
@@ -67,19 +73,34 @@ welcome.removeRange(range)
 
 let str1 = "hey"
 var str2 = "hey"
+
 if str1 == str2 {
-    print("equal strings")
+    result = "equal strings"
+} else {
+    result = "different"
 }
+
+print(result)
 
 //: Prefix and Suffix Equality
 
 let myBook = "The incredible Story Part 1"
+
 if myBook.hasPrefix("1 -") {
-    print("has prefix!")
+    result = "has prefix!"
+} else {
+    result = "does not have a prefix!"
 }
+
+print(result)
+
 if myBook.hasSuffix("Part 1") {
-    print("has suffix!")
+    result = "has suffix!"
+} else {
+    result = "does not have a suffix!"
 }
+
+print(result)
 
 //: UTF-8, UTF-16 and Scalar Representation
 

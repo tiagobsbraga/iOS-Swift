@@ -3,6 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: Empty Array
 
@@ -35,16 +36,20 @@ print(shoppingList.count)
 //: Check if it is Empty
 
 if shoppingList.isEmpty {
-    print("The shopping list is empty.")
+    result = "The shopping list is empty."
 } else {
-    print("The shopping list is not empty.")
+    result = "The shopping list is not empty."
 }
 
+print(result)
+
 if someInts.isEmpty {
-    print("The integer list is empty.")
+    result = "The integer list is empty."
 } else {
-    print("The integer list is not empty.")
+    result = "The integer list is not empty."
 }
+
+print(result)
 
 //: Modifying an Array
 

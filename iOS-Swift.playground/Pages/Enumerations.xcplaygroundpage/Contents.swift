@@ -3,6 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: Enumeration Syntax
 
@@ -26,14 +27,15 @@ directionToHead = .South
 
 switch directionToHead {
 case .North:
-    print("Lots of planets have a north")
+    result = "Lots of planets have a north"
 case .South:
-    print("Watch out for penguins")
+    result = "Watch out for penguins"
 case .East:
-    print("Where the sun rises")
+    result = "Where the sun rises"
 case .West:
-    print("Where the skies are blue")
+    result = "Where the skies are blue"
 }
+print(result)
 
 //: Associated Values
 
@@ -47,10 +49,11 @@ userProfile = .Complete("John", 30)
 
 switch userProfile {
 case let .Simple(name):
-    print("Simple: \(name)")
+    result = "Simple: \(name)"
 case .Complete(let name, let age):
-    print("Complete: \(name) = \(age)")
+    result = "Complete: \(name) = \(age)"
 }
+print(result)
 
 //: Raw Values
 

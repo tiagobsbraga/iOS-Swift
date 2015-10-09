@@ -3,7 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
-
+var result = ""
 //: Empty Set
 
 var letters = Set<Character>()
@@ -22,32 +22,36 @@ print(favoriteGenres.count)
 //: Check if it is Empty
 
 if favoriteGenres.isEmpty {
-    print("The favorite genres set is empty.")
+    result = "The favorite genres set is empty."
 } else {
-    print("The favorite genres set is not empty.")
+    result = "The favorite genres set is not empty."
 }
+print(result)
 
 if letters.isEmpty {
-    print("The letters set is empty.")
+    result = "The letters set is empty."
 } else {
-    print("The letters set is not empty.")
+    result = "The letters set is not empty."
 }
+print(result)
 
 //: Modifying a Set
 
 favoriteGenres.insert("Jazz")
 
 if let removedGenre = favoriteGenres.remove("Rock") {
-    print("\(removedGenre)? I'm over it.")
+    result = "\(removedGenre)? I'm over it."
 } else {
-    print("I never much cared for that.")
+    result = "I never much cared for that."
 }
+print(result)
 
 if favoriteGenres.contains("Funk") {
-    print("I get up on the good foot.")
+    result = "I get up on the good foot."
 } else {
-    print("It's too funky in here.")
+    result = "It's too funky in here."
 }
+print(result)
 
 //: Iterating Over a Set
 
@@ -68,7 +72,6 @@ print(sortFavoriteGenres)
 let oddDigits: Set = [1, 3, 5, 7, 9]
 let evenDigits: Set = [0, 2, 4, 6, 8]
 let singleDigitPrimeNumbers: Set = [2, 3, 5, 7]
-
 oddDigits.union(evenDigits).sort()
 oddDigits.intersect(evenDigits).sort()
 oddDigits.subtract(singleDigitPrimeNumbers).sort()

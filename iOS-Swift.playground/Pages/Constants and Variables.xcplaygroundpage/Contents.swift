@@ -14,17 +14,19 @@ var variable = "My first variable!"
 var r = 250.0, g = 100.0, b = 210.0
 
 //: Type Annotations
+
 var hello: String
 hello = "Hello!"
 
 //: Emoji Names
 //: - Emoji shortcut: control + command + space
+
 let 😎 = ":)"
 
 //: Printing
 
 print(😎)
-print("Using a string with a constant or variable: \(hello)")
+print("Using a string with a constant or variable: \(hello) \(😎)")
 
 //: Comments
 

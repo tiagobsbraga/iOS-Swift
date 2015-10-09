@@ -40,10 +40,8 @@ shiftBits >> 2             // 00000001
 
 var unsignedOverflow = UInt8.max
 unsignedOverflow = unsignedOverflow &+ 2
-
 unsignedOverflow = UInt8.min
 unsignedOverflow = unsignedOverflow &- 1
-
 unsignedOverflow = UInt8.max
 unsignedOverflow = unsignedOverflow &* 2
 
@@ -60,7 +58,6 @@ func + (left: Vector2D, right: Vector2D) -> Vector2D {
 let vector = Vector2D(x: 3.0, y: 1.0)
 let anotherVector = Vector2D(x: 2.0, y: 4.0)
 let combinedVector = vector + anotherVector
-print(combinedVector.x, combinedVector.y)
 
 //: Prefix and Postfix Operators
 
@@ -100,7 +97,6 @@ prefix func ++ (inout vector: Vector2D) -> Vector2D {
 
 var toIncrement = Vector2D(x: 3.0, y: 4.0)
 let afterIncrement = ++toIncrement
-
 print(toIncrement.x, toIncrement.y)
 
 //: Equivalence Operators
@@ -130,7 +126,6 @@ prefix func +++ (inout vector: Vector2D) -> Vector2D {
 
 var toBeDoubled = Vector2D(x: 1.0, y: 4.0)
 let afterDoubling = +++toBeDoubled
-
 print(afterDoubling.x, afterDoubling.y)
 
 //: Precedence and Associativity for Custom Infix Operators
@@ -144,7 +139,6 @@ func +- (left: Vector2D, right: Vector2D) -> Vector2D {
 let firstVector = Vector2D(x: 1.0, y: 2.0)
 let secondVector = Vector2D(x: 3.0, y: 4.0)
 let plusMinusVector = firstVector +- secondVector
-
 print(plusMinusVector.x, plusMinusVector.y)
 
 //: [Next](@next)

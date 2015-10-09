@@ -3,6 +3,7 @@
 //: [Previous](@previous)
 
 import Foundation
+var result = ""
 
 //: Representing Errors
 
@@ -65,15 +66,19 @@ func buyFavoriteSnack(person: String, vendingMachine: VendingMachine) throws {
 
 var vendingMachine = VendingMachine()
 vendingMachine.coinsDeposited = 8
+
 do {
     try buyFavoriteSnack("Alice", vendingMachine: vendingMachine)
+    result = "ok!"
 } catch VendingMachineError.InvalidSelection {
-    print("Invalid Selection.")
+    result = "Invalid Selection."
 } catch VendingMachineError.OutOfStock {
-    print("Out of Stock.")
+    result = "Out of Stock."
 } catch VendingMachineError.InsufficientFunds(let coinsNeeded) {
-    print("Insufficient funds. Please insert an additional \(coinsNeeded) coins.")
+    result = "Insufficient funds. Please insert an additional \(coinsNeeded) coins."
 }
+
+print(result)
 
 //: Converting Errors to Optional Values
 
@@ -92,6 +97,7 @@ do {
 } catch {
     y = nil
 }
+print(y)
 
 //: Disabling Error Propagation
 
@@ -112,9 +118,6 @@ func numberTooHigh(number: Int) -> Int? {
 }
 
 var w = numberTooHigh(10)
-print("returned value: \(w)")
-
 w = numberTooHigh(50)
-print("returned value: \(w)")
 
 //: [Next](@next)
