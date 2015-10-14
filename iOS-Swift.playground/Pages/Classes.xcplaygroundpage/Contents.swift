@@ -384,7 +384,7 @@ cheeseQuestion.response = "Yes, I do like cheese."
 
 //: Weak References
 
-class Person {
+class Person2 {
     let name: String
     init(name: String) { self.name = name }
     var apartment: Apartment?
@@ -394,14 +394,14 @@ class Person {
 class Apartment {
     let unit: String
     init(unit: String) { self.unit = unit }
-    weak var tenant: Person?
+    weak var tenant: Person2?
     deinit { print("Apartment \(unit) is being deinitialized") }
 }
 
-var john: Person?
+var john: Person2?
 var unit4A: Apartment?
 
-john = Person(name: "John Appleseed")
+john = Person2(name: "John Appleseed")
 unit4A = Apartment(unit: "4A")
 
 john!.apartment = unit4A

@@ -4,6 +4,7 @@
 
 import Foundation
 var result = ""
+
 //: Empty Set
 
 var letters = Set<Character>()
