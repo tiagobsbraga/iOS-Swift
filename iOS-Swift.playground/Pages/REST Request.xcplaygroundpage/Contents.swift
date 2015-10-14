@@ -25,6 +25,7 @@ class ServerManager {
         // Request
         let request = NSMutableURLRequest(URL: NSURL(string: apiUrl)!)
         request.HTTPMethod = "GET"
+        request.setValue("value", forHTTPHeaderField: "field")
         
         // Session
         let session = NSURLSession.sharedSession()

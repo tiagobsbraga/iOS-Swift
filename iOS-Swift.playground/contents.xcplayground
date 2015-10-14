@@ -26,5 +26,6 @@
         <page name='Notification Center'/>
         <page name='JSON Serialization'/>
         <page name='REST Request'/>
+        <page name='Operations'/>
     </pages>
 </playground>
