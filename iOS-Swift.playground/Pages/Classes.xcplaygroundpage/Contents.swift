@@ -150,13 +150,10 @@ class Counter {
 
 let counter = Counter()
 print(counter.count)
-
 counter.increment()
 print(counter.count)
-
 counter.incrementBy(5)
 print(counter.count)
-
 counter.reset()
 print(counter.count)
 
@@ -174,7 +171,6 @@ let rect = Rectangle()
 
 rect.width = 10
 print(rect.width)
-
 rect.multiplyWidthWith(5)
 print(rect.width)
 
@@ -223,16 +219,12 @@ class Player {
 
 let anyone = Player()
 print(anyone.playerName)
-
 let player = Player(name: "Mark")
 print(player.playerName)
-
 let proPlayer = Player(name: "Michael", surname: "Jordan")
 print(proPlayer.playerName)
-
 let failPlayer = Player(fullname: "")
 print(failPlayer)
-
 let fullnamePlayer = Player(fullname: "Tiger Woods")
 print(fullnamePlayer!.playerName)
 
@@ -253,7 +245,6 @@ class Temp {
 
 var temp: Temp? = Temp()
 print(temp?.name)
-
 temp = nil // Call deinit
 
 //: Subscripts
@@ -310,7 +301,6 @@ class Vehicle {
 
 let someVehicle = Vehicle()
 print(someVehicle.description)
-
 class Bicycle: Vehicle {
     var hasBasket = false
 }

@@ -6,7 +6,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
 
 ## Contents
 
-# Constants and Variables
+### Constants and Variables
 
  - Constants
  - Variables
@@ -23,7 +23,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Type aliases
  - Converting types
 
-# Operators and Comparison
+### Operators and Comparison
 
  - Assignment
  - Arithmetic
@@ -44,7 +44,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Switch Fallthrough
  - Checking API Availability
 
-# Optionals
+### Optionals
 
  - Declaration
  - Unwrapping
@@ -52,7 +52,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Testing
  - Optional Binding
 
-# Strings and Characters
+### Strings and Characters
 
  - String Literals
  - Empty String
@@ -66,7 +66,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Prefix and Suffix Equality
  - UTF-8, UTF-16 and Scalar Representation
 
-# Arrays
+### Arrays
 
  - Empty Array
  - Array with a Default Value
@@ -79,7 +79,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Sorting Arrays
  - Sorting Tuples/Objects
 
-# Sets
+### Sets
 
  - Empty Set
  - Set with an Array Literal
@@ -95,7 +95,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Is Superset Of
  - Is Disjoint With - does not have any values in common
 
-# Dictionaries
+### Dictionaries
 
  - Empty Dictionary
  - Dictionary with a Dictionary Literal
@@ -105,7 +105,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Iterating Over a Dictionary
  - Get Dictionary List
 
-# Loops
+### Loops
 
  - For-In - Closed Range
  - For-In - Half-Open Range
@@ -119,7 +119,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Break - stop the loop or switch
  - Labeled Loop
 
-# Functions
+### Functions
 
  - Defining and Calling Functions
  - Single Parameter
@@ -138,7 +138,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Function Types as Return Types
  - Nested Functions
 
-# Closures
+### Closures
 
  - The Sort Method
  - Inferring Type From Context
@@ -151,7 +151,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Autoclosures
  - Escaping - Using variables from outside the closure
 
-# Enumerations
+### Enumerations
 
  - Enumeration Syntax
  - Matching Enumeration Values with a Switch Statement
@@ -161,7 +161,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Initializing from a Raw Value
  - Recursive Enumerations
 
-# Structures
+### Structures
 
  - Definition Syntax
  - Structure Instances
@@ -169,7 +169,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Structures Are Value Types
  - Methods
 
-# Classes
+### Classes
 
  - Classes Are Reference Types
  - Lazy Stored Properties
@@ -194,7 +194,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Weak References
  - Unowned References
 
-# Error Handling
+### Error Handling
 
  - Representing Errors
  - Propagating Errors Using Throwing Functions
@@ -203,7 +203,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Disabling Error Propagation
  - Specifying Cleanup Actions
 
-# Type Casting
+### Type Casting
 
  - Defining a Class Hierarchy for Type Casting
  - Checking Type
@@ -211,12 +211,12 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Type Casting for AnyObject
  - Type Casting for Any
 
-# Nested Types
+### Nested Types
 
  - Nested Types in Action
  - Referring to Nested Types
 
-# Extensions
+### Extensions
 
  - Computed Properties
  - Initializers
@@ -225,7 +225,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Subscripts
  - Nested Types
 
-# Protocols
+### Protocols
 
  - Property Requirements
  - Method Requirements
@@ -241,7 +241,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Protocol Extensions
  - Adding Constraints to Protocol Extensions
 
-# Generics
+### Generics
 
  - Generic Functions
  - Generic Types
@@ -251,7 +251,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Extending an Existing Type to Specify an Associated Type
  - Where Clauses
 
-# Access Control
+### Access Control
 
  - Access Control Syntax
  - Custom Types
@@ -259,7 +259,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Subclassing
  - Constants, Variables, Properties, and Subscripts
 
-# Advanced Operators
+### Advanced Operators
 
  - Bitwise NOT Operator
  - Bitwise AND Operator
@@ -274,23 +274,23 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Custom Operators
  - Precedence and Associativity for Custom Infix Operators
 
-# Notification Center
+### Notification Center
 
  - Adding and Removing Observer for a Notification
  - Posting a Notification
  - Executing
 
-# JSON Serialization
+### JSON Serialization
 
  - JSON Data
  - Serialization
 
-# REST Request
+### REST Request
 
  - Creating a Manager
  - Executing and Canceling
 
-# Operations
+### Operations
 
  - Block Operation
  - Priority and Quality of Service
@@ -299,3 +299,19 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Operation Queue
  - Cancelling Operations
  - Dependencies
+
+### Grand Central Dispatch
+
+ - Global Concurrent Dispatch Queues
+ - Getting Main Queue at Runtime
+ - Creating Serial Dispatch Queues
+ - Synchronous Task
+ - Asynchronous Task
+ - Getting back to the main queue
+ - Suspending and Resuming Queues
+ - Dispatch at the specified time
+ - Dispatch queue for multiple invocations
+ - Dispatch once and only once for the lifetime of an application
+ - Using Dispatch Semaphores to Regulate the Use of Finite Resources
+ - Waiting on Groups of Queued Tasks
+ 
