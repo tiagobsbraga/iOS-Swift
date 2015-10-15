@@ -251,14 +251,6 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Extending an Existing Type to Specify an Associated Type
  - Where Clauses
 
-### Functional Programming
-
-- Filtering
-- Reducing
-- Mapping
-- FlatMap
-- Combining uses
-
 ### Access Control
 
  - Access Control Syntax
@@ -324,3 +316,11 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Dispatch once and only once for the lifetime of an application
  - Using Dispatch Semaphores to Regulate the Use of Finite Resources
  - Waiting on Groups of Queued Tasks
+
+### Functional Programming
+
+- Filtering
+- Reducing
+- Mapping
+- FlatMap
+- Combining uses
