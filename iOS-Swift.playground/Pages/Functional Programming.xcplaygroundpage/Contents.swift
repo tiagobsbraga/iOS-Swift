@@ -6,11 +6,11 @@ import Foundation
 
 //: Filtering
 
-let completeArray = Array(0..<10)
+let evenAndOddNumbers = Array(0..<10)
 
-let evenNumbers = completeArray.filter { $0 % 2 == 0 }
+let onlyEvenNumbers = evenAndOddNumbers.filter { $0 % 2 == 0 }
 
-print(evenNumbers)
+print(onlyEvenNumbers)
 
 
 //: Reducing
@@ -30,5 +30,24 @@ let strings = numbers.map { "The number is " + String($0) }
 
 print(strings)
 
+
+//: FlatMap
+
+let nestedArrays = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]
+
+let flatArray = nestedArrays.flatMap { $0 }
+
+print(flatArray)
+
+
+//: Combining uses
+
+let numbersArray = Array(0..<10)
+
+let stringResult = numbersArray.filter { $0 % 2 == 0 }
+                               .map { "[\($0)]" }
+                               .reduce("List of even numbers:") { $0 + " " + $1 }
+
+print(stringResult)
 
 //: [Next](@next)
