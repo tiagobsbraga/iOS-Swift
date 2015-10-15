@@ -251,6 +251,14 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Extending an Existing Type to Specify an Associated Type
  - Where Clauses
 
+### Functional Programming
+
+- Filtering
+- Reducing
+- Mapping
+- FlatMap
+- Combining uses
+
 ### Access Control
 
  - Access Control Syntax
