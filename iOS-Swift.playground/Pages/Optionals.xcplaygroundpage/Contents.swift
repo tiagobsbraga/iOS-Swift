@@ -51,4 +51,16 @@ if let newCode = code {
 }
 print(result)
 
+//: Nil Coalescing
+
+let defaultName = "User"
+var userDefinedName: String?
+let nameToUse = userDefinedName ?? defaultName
+print(nameToUse)
+
+let defaultSize = "Small"
+let userDefinedSize = "Big"
+let sizeToUse = userDefinedSize ?? defaultSize
+print(sizeToUse)
+
 //: [Next](@next)
