@@ -51,6 +51,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Can set nil
  - Testing
  - Optional Binding
+ - Nil Coalescing
 
 ### Strings and Characters
 
@@ -184,7 +185,6 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Initialization
  - Deinitialization
  - Subscripts
- - Returning String
  - Inheritance
  - Overriding Methods
  - Overriding Properties
@@ -307,6 +307,8 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Creating Serial Dispatch Queues
  - Synchronous Task
  - Asynchronous Task
+ - Barrier Synchronous Task
+ - Barrier Asynchronous Task
  - Getting back to the main queue
  - Suspending and Resuming Queues
  - Dispatch at the specified time
@@ -314,4 +316,3 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Dispatch once and only once for the lifetime of an application
  - Using Dispatch Semaphores to Regulate the Use of Finite Resources
  - Waiting on Groups of Queued Tasks
- 

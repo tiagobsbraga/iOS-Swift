@@ -48,6 +48,7 @@ class CustomOperation: NSOperation {
         print("doing something...")
     }
 }
+
 let customOperation = CustomOperation()
 customOperation.name = "customOperation"
 customOperation.completionBlock = {
@@ -78,9 +79,11 @@ secondOperationQueue.cancelAllOperations()
 let firstOperation = NSBlockOperation { () -> Void in
     print("first?")
 }
+
 let secondOperation = NSBlockOperation { () -> Void in
     print("second?")
 }
+
 firstOperation.addDependency(secondOperation)
 let thirdOperationQueue = NSOperationQueue()
 thirdOperationQueue.addOperations([firstOperation, secondOperation], waitUntilFinished: false)

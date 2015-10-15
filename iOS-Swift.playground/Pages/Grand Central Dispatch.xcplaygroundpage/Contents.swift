@@ -31,6 +31,20 @@ dispatch_async(serialQueue) { () -> Void in
     print("Asynchronous Task!")
 }
 
+//: Barrier Synchronous Task
+
+// Use it only on custom queues
+dispatch_barrier_sync(serialQueue) { () -> Void in
+    print("Barrier Synchronous Task")
+}
+
+//: Barrier Asynchronous Task
+
+// Use it only on custom queues
+dispatch_barrier_async(serialQueue) { () -> Void in
+    print("Barrier Asynchronous Task")
+}
+
 //: Getting back to the main queue
 
 dispatch_async(serialQueue) { () -> Void in
@@ -39,7 +53,6 @@ dispatch_async(serialQueue) { () -> Void in
         print("Back to main queue!")
     })
 }
-print("DONE!")
 
 //: Suspending and Resuming Queues
 
