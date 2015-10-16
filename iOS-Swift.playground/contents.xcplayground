@@ -10,6 +10,7 @@
         <page name='Sets'/>
         <page name='Dictionaries'/>
         <page name='Loops'/>
+        <page name='Predicates'/>
         <page name='Functions'/>
         <page name='Closures'/>
         <page name='Enumerations'/>

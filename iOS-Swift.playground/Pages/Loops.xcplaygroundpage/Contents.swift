@@ -31,7 +31,6 @@ for name in names {
     print("Hello, \(name)!")
 }
 
-
 /*:
 > For-in-where - Iterating Over an Array where element meets a condition
 */

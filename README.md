@@ -121,6 +121,22 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Break - stop the loop or switch
  - Labeled Loop
 
+### Predicates
+
+ - Equal
+ - Not
+ - Less
+ - Variables Substitution
+ - Between
+ - Compound Predicates
+ - String BEGINSWITH
+ - String CONTAINS
+ - String ENDSWITH
+ - String LIKE
+ - String MATCHES
+ - IN
+ - Block Predicate
+
 ### Functions
 
  - Defining and Calling Functions
