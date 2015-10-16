@@ -28,5 +28,7 @@
         <page name='REST Request'/>
         <page name='Operations'/>
         <page name='Grand Central Dispatch'/>
+        <page name='Functional Programming'/>
+        <page name='Timers'/>
     </pages>
 </playground>

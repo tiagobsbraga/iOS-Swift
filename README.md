@@ -319,8 +319,16 @@ Feel free to take a look and if you want to add something, pull requests are wel
 
 ### Functional Programming
 
-- Filtering
-- Reducing
-- Mapping
-- FlatMap
-- Combining uses
+ - Filtering
+ - Reducing
+ - Mapping
+ - FlatMap
+ - Combining uses
+
+### Timers
+
+ - Scheduled Timer on the current NSRunLoop
+ - Scheduled Timer With Repetition
+ - Scheduling Timers Manually
+ - Scheduling Timers Manually With Fire Date
+ - Firing Timers Manually
