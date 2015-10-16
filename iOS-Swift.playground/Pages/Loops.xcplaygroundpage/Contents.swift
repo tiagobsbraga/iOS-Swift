@@ -31,6 +31,15 @@ for name in names {
     print("Hello, \(name)!")
 }
 
+
+/*:
+> For-in-where - Iterating Over an Array where element meets a condition
+*/
+
+for name:String in names where name.characters.count < 5 {
+    print("Hello, \(name)!")
+}
+
 //: For-In - Iterating Over a Dictionary
 
 let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]

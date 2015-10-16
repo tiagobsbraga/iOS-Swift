@@ -112,6 +112,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - For-In - Half-Open Range
  - For-In - Don't need to declare index
  - For-In - Iterating Over an Array
+ - For-In-Where - Iterating Over an Array where element meets condition
  - For-In - Iterating Over a Dictionary
  - For
  - While
