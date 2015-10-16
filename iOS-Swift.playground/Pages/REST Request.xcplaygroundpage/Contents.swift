@@ -3,6 +3,8 @@
 //: [Previous](@previous)
 
 import Foundation
+import XCPlayground
+XCPSetExecutionShouldContinueIndefinitely(true)
 
 //: Creating a Manager
 
