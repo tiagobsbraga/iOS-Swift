@@ -216,6 +216,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Representing Errors
  - Propagating Errors Using Throwing Functions
  - Handling Errors Using Do-Catch
+ - Using methods with NSError
  - Converting Errors to Optional Values
  - Disabling Error Propagation
  - Specifying Cleanup Actions
@@ -349,3 +350,20 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Scheduling Timers Manually
  - Scheduling Timers Manually With Fire Date
  - Firing Timers Manually
+
+### File Manager
+
+ - Bundle Directory
+ - Documents Directory
+ - Documents/Inbox Directory
+ - Library Documents
+ - Temporary Dicrectory
+ - File Manager
+ - Contents of a directory
+ - Filter by file extension
+ - Check if directory or file exists
+ - Creating a directory
+ - Writing and Reading String Files
+ - Deleting a File
+ - Directory or File Attributes
+ - File Manager Delegate
