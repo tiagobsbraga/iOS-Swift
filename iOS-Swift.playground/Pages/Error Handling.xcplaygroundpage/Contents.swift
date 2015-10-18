@@ -80,6 +80,18 @@ do {
 
 print(result)
 
+//: Using methods with NSError
+
+do {
+    let fileManager = NSFileManager.defaultManager()
+    let documentsPath = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.AllDomainsMask, true).first!
+    let textFile = documentsPath + "/text.txt"
+    try fileManager.removeItemAtPath(textFile)
+    print("File deleted")
+} catch let error as NSError {
+    print(error)
+}
+
 //: Converting Errors to Optional Values
 
 func someThrowingFunction(a: Int) throws -> Int {
