@@ -24,5 +24,4 @@
 //: Use the Project Navigator to go through the contents of this Playground.
 
 print("Welcome to Swift!")
-
 //: [Next](@next)
