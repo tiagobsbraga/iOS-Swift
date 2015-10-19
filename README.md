@@ -393,6 +393,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Managed Object Model
  - Persistent Store Coordinator
  - Managed Object Context
+ - Child Managed Object Context for Multithreading
  - Managed Objects
  - Notifications
  - Saving Context

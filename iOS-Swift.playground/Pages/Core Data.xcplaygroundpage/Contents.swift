@@ -89,6 +89,11 @@ catch {
 var managedObjectContext = NSManagedObjectContext(concurrencyType: NSManagedObjectContextConcurrencyType.MainQueueConcurrencyType)
 managedObjectContext.persistentStoreCoordinator = persistentStoreCoordinator
 
+//: Child Managed Object Context for Multithreading
+
+var childManagedObjectContext = NSManagedObjectContext(concurrencyType: NSManagedObjectContextConcurrencyType.MainQueueConcurrencyType)
+childManagedObjectContext.parentContext = managedObjectContext
+
 //: Managed Objects
 
 func newCountry(name: String) -> NSManagedObject {
