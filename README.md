@@ -368,6 +368,22 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Directory or File Attributes
  - File Manager Delegate
 
+### User Defaults
+
+ - Shared Instance
+ - Bool Values
+ - Integer Values
+ - Float Values
+ - Double Values
+ - String Value
+ - Array Value
+ - Dictionary Value
+ - Data Value
+ - URL Value
+ - Removing Defaults
+ - Synchronyze
+ - Notifications
+
 ### Core Data
 
  - Entities
