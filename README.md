@@ -367,3 +367,18 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Deleting a File
  - Directory or File Attributes
  - File Manager Delegate
+
+### Core Data
+
+ - Entities
+ - Attributes
+ - Relationships
+ - Entities Properties
+ - Managed Object Model
+ - Persistent Store Coordinator
+ - Managed Object Context
+ - Managed Objects
+ - Notifications
+ - Saving Context
+ - Fetch Request
+ - Subclassing

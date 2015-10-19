@@ -32,5 +32,6 @@
         <page name='Functional Programming'/>
         <page name='Timers'/>
         <page name='File Manager'/>
+        <page name='Core Data'/>
     </pages>
 </playground>
