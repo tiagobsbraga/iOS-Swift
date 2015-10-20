@@ -111,4 +111,32 @@ let sum = ArithmeticExpression.Addition(five, four)
 let product = ArithmeticExpression.Multiplication(sum, ArithmeticExpression.Number(2))
 print(evaluate(product))
 
+//: If Case (Enumeration Case Pattern)
+enum AgeInput {
+    case Integer(Int)
+    case Text(String)
+}
+
+let ageInteger: AgeInput = .Integer(20)
+if case .Integer(let age) = ageInteger {
+    print("Age is the integer: \(age)")
+}
+
+let ageString: AgeInput = .Text("Ten")
+if case .Text(let age) = ageString {
+    print("Age is the string: \(age)")
+}
+
+let ages: [AgeInput] = [ageString, ageInteger]
+
+for ageInput in ages {
+    switch ageInput {
+    case .Integer(let age):
+        print("Age is the integer: \(age)")
+    case .Text(let age):
+        print("Age is the string: \(age)")
+    }
+}
+
+
 //: [Next](@next)
