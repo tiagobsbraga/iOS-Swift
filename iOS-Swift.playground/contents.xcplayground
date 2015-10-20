@@ -24,6 +24,7 @@
         <page name='Generics'/>
         <page name='Access Control'/>
         <page name='Advanced Operators'/>
+        <page name='Date and Time'/>
         <page name='Notification Center'/>
         <page name='JSON Serialization'/>
         <page name='REST Request'/>
