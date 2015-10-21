@@ -9,7 +9,6 @@
         <page name='Arrays'/>
         <page name='Sets'/>
         <page name='Dictionaries'/>
-        <page name='Predicates'/>
         <page name='Loops'/>
         <page name='Functions'/>
         <page name='Closures'/>
@@ -24,16 +23,10 @@
         <page name='Generics'/>
         <page name='Access Control'/>
         <page name='Advanced Operators'/>
-        <page name='Date and Time'/>
         <page name='Notification Center'/>
         <page name='JSON Serialization'/>
         <page name='REST Request'/>
         <page name='Operations'/>
         <page name='Grand Central Dispatch'/>
-        <page name='Functional Programming'/>
-        <page name='Timers'/>
-        <page name='File Manager'/>
-        <page name='User Defaults'/>
-        <page name='Core Data'/>
     </pages>
 </playground>

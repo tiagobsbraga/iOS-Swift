@@ -178,6 +178,7 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Implicitly Assigned Raw Values
  - Initializing from a Raw Value
  - Recursive Enumerations
+ - If Case (Enumeration Case Pattern)
 
 ### Structures
 
