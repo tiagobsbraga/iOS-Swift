@@ -61,6 +61,7 @@ let doubleConstant2: Double = 30.7
 
 let trueConstant = true
 let falseConstant: Bool = false
+let anotherOne = !trueConstant
 
 //: String
 

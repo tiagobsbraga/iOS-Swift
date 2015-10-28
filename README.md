@@ -317,6 +317,12 @@ Feel free to take a look and if you want to add something, pull requests are wel
  - Posting a Notification
  - Executing
 
+### Key Value Observing
+
+ - Contexts
+ - Observable Properties
+ - Handle observing
+
 ### JSON Serialization
 
  - JSON Data

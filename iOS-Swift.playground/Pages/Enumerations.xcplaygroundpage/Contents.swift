@@ -112,6 +112,7 @@ let product = ArithmeticExpression.Multiplication(sum, ArithmeticExpression.Numb
 print(evaluate(product))
 
 //: If Case (Enumeration Case Pattern)
+
 enum AgeInput {
     case Integer(Int)
     case Text(String)
