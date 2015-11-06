@@ -95,7 +95,7 @@ var customAlias2 = MyInt.max
 
 //: Converting types
 
-let doubleToIntConstant = Int(45.32)
-let intToDoubleConstant = Double(50)
+let doubleToIntConstant:Int = Int(45.32) // error: ... = 45.32
+let intToDoubleConstant:Double = Double(50)
 
 //: [Next](@next)
